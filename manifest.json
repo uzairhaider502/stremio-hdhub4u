@@ -1,0 +1,14 @@
+{
+    "id": "community.hdhub4u",
+    "version": "1.0.0",
+    "name": "HDHub4u Stremio Add-on",
+    "description": "Watch movies from HDHub4u in Stremio.",
+    "resources": ["catalog", "stream"],
+    "types": ["movie"],
+    "idPrefixes": ["tt"],
+    "catalogs": [{
+        "type": "movie",
+        "id": "hdhub4u-movies",
+        "name": "HDHub4u Movies"
+    }]
+}
